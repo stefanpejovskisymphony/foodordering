@@ -1,0 +1,10 @@
+{
+  "name": "foodordering",
+  "version": "1.0.0",
+  "description": "A project for food ordering in the office",
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "Stefan Pejovski"
+}

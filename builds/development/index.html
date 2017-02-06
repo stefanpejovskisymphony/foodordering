@@ -1,0 +1,19 @@
+<h5>Here is your HTML code!</h5>
+
+<section>
+	<div>
+		<h1>User on ...</h1>
+		<article id="users"></article>
+	</div>
+</section>
+
+<script src="js/srcipt.js"></script>
+<scripts id="userstpl" type="text/template">
+{{#users}}
+<div class="user">
+	<h2>{{name}}</h2>
+	<h3>{{username}}</h3>
+	<p><img src="images/users/{{shortname}}_tn.jpg"></p>
+</div>
+
+</script>
