@@ -1,5 +1,5 @@
 $(function () {
-	var Mustache = require('Mustache');
+	var Mustache = require('mustache');
 
 	$.getJSON('js.data.json', function(data){
 		var template = $('#userstpl').html();
